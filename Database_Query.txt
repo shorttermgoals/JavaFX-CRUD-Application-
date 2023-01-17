@@ -1,0 +1,21 @@
+CREATE DATABASE `productos_javafx`;
+
+CREATE TABLE `productos_javafx`.`productos` (
+  `idNumero` INT NOT NULL,
+  `idNombre` VARCHAR(150) NULL,
+  `idTalla` VARCHAR(150) NULL,
+  `idDescripcion` VARCHAR(200) NULL,
+  `idMarca` VARCHAR(255) NULL,
+  `idCategoria` VARCHAR(100) NULL,
+  `idEstado` VARCHAR(100) NULL,
+  `idAncho` VARCHAR(11) NULL,
+  `idAltol` VARCHAR(11) NULL,
+  `idPrecio` VARCHAR(11) NULL,
+  PRIMARY KEY (`idNumero`));
+
+CREATE TABLE `productos_javafx`.`usuarios` (
+  `mail` VARCHAR(100) NOT NULL,
+  `pwd` VARCHAR(100) NOT NULL,
+  `permiso` INT(1) NOT NULL);
+
+
