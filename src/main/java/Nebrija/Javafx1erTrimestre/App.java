@@ -22,7 +22,7 @@ public class App extends Application {
         SQLconnection conexionBD = new SQLconnection();
         conexionBD.conectar();
 
-        scene = new Scene(loadFXML("SignUp"), 640, 480);
+        scene = new Scene(loadFXML("SignUp"), 6400, 480);
         stage.setScene(scene);
         stage.show();
     }
